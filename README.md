@@ -27,13 +27,13 @@ Comment:<br>
   Second: <b>onPause -> onStop -> onDestroyView -> onDestroy -> onDetach</b><br>
   with REPLACE:<br>
 2) Open Fragment Second:<br>
-  Frist: <b>onPause -> onStop -> onDestroyView<b/><br>
+  Frist: <b>onPause -> onStop -> onDestroyView</b><br>
   Second: <b>onAttach -> onCreate -> onActivityCreated -> onStart -> onResume</b><br>
 3) When click back button on second fragment<br>
-  Frist: <b>onCreateView -> onActivityCreated -> onStart -> onResume<b/><br>
-  Second: <b>onPause -> onStop -> onDestroyView -> onDestroy -> onDetach<b/><br>
+  Frist: <b>onCreateView -> onActivityCreated -> onStart -> onResume</b><br>
+  Second: <b>onPause -> onStop -> onDestroyView -> onDestroy -> onDetach</b><br>
 4) when click Home button at Frist Fragment:<br>
-  Frist: <b>onPause -> onStop<b/><br>
+  Frist: <b>onPause -> onStop</b><br>
   and reverse action from background -> foreground:<br>
   Frist: <b>onStart -> onResume</b><br>
   
