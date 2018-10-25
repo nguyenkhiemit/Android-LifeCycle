@@ -13,4 +13,5 @@ Comment:<br>
   Main: <b>onPause -> onStop</b><br>
    and reverse action from background -> foreground:<br>
   Main: <b>onStart -> onResume</b><br>
-   
+5) when kill app:<br>
+  Main: <b>onDestroy</b>
