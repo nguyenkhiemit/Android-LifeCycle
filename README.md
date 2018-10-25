@@ -1,7 +1,7 @@
 # Android-LifeCycle
 
 Comment:<br>
-<h3>Activity</h3><br>
+<h3>Activity</h3>
 1) when start activity A:<br>
   Main: <b>onCreate -> onStart -> onResume</b><br>
 2) when click NEXT button to open Second Activity:<br>
@@ -17,7 +17,7 @@ Comment:<br>
 5) when kill app:<br>
   Main: <b>onDestroy</b>
 
-<h3>Fragment</h3><br>
+<h3>Fragment</h3>
 1) When start Fragment First:<br>
 <b>onAttach -> onCreate -> onCreateView -> onActivityCreated -> onStart -> onResume</b><br>
   with START: <br>
