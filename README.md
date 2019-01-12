@@ -22,11 +22,6 @@ Comment:<br>
 <b>onAttach -> onCreate -> onCreateView -> onActivityCreated -> onStart -> onResume</b><br>
   with START: <br>
 2) Open Fragment Second:<br>
-  Second: <b>onAttach -> onCreate -> onActivityCreated -> onStart -> onResume</b><br>
-3) When click back button on second fragment<br>
-  Second: <b>onPause -> onStop -> onDestroyView -> onDestroy -> onDetach</b><br>
-  with REPLACE:<br>
-2) Open Fragment Second:<br>
   Frist: <b>onPause -> onStop -> onDestroyView</b><br>
   Second: <b>onAttach -> onCreate -> onActivityCreated -> onStart -> onResume</b><br>
 3) When click back button on second fragment<br>
