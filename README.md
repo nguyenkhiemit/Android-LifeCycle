@@ -32,3 +32,5 @@ Comment:<br>
   and reverse action from background -> foreground:<br>
   Frist: <b>onStart -> onResume</b><br>
   
+<h3>Dialog</h3>
+when open dialog, activity and fragment still active normal, no onPause
