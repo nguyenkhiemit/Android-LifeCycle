@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.newgate.basekotlinmvvm.base.view.BaseFragment
+import kotlinx.android.synthetic.main.fragment_first.*
 import kotlinx.android.synthetic.main.fragment_first.view.*
 
 class FirstFragment: BaseFragment() {
@@ -33,6 +34,9 @@ class FirstFragment: BaseFragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         Log.e("LifeCycle FirstFragment:", "onActivityCreated")
+        openDialogButton.setOnClickListener {
+            DialogUtils.showAlertDialogExitsApp(context, "Dialog from fragment")
+        }
     }
 
     override fun onStart() {

@@ -1,7 +1,6 @@
 package com.newgate.lifecycle
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import com.newgate.basekotlinmvvm.base.di.BaseActivity
@@ -16,6 +15,9 @@ class MainActivity : BaseActivity() {
         nextButton.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
+        }
+        openDialogButton.setOnClickListener {
+            DialogUtils.showAlertDialogExitsApp(this, "Dialog from activity")
         }
         navigation.openFragment(R.id.containerFrame, FirstFragment(), NavigationManager.Type.ADD, null)
     }
